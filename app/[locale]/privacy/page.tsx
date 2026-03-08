@@ -6,6 +6,22 @@ export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+function LogoIcon({ className = "w-5 h-5" }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect x="2" y="17" width="4" height="5" rx="2" />
+      <rect x="8" y="13" width="4" height="9" rx="2" />
+      <rect x="14" y="8" width="4" height="14" rx="2" />
+      <rect x="20" y="3" width="4" height="19" rx="2" />
+    </svg>
+  );
+}
+
 export default async function PrivacyPolicy({
   params,
 }: {
@@ -18,15 +34,13 @@ export default async function PrivacyPolicy({
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <header className="border-b border-border">
+      <header className="border-b border-border/60">
         <div className="max-w-4xl mx-auto px-6 py-6 flex items-center gap-3">
           <Link href={`/${locale}`} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-8 h-8 bg-pl-primary rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-              </svg>
+            <div className="w-8 h-8 brand-gradient rounded-lg flex items-center justify-center">
+              <LogoIcon className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-lg">ProgLoad</span>
+            <span className="font-semibold text-lg">ProgLoad</span>
           </Link>
         </div>
       </header>
@@ -34,7 +48,7 @@ export default async function PrivacyPolicy({
       {/* Content */}
       <main className="max-w-4xl mx-auto px-6 py-12">
         <article className="prose prose-neutral dark:prose-invert max-w-none">
-          <h1 className="text-3xl font-bold mb-2">Privacy Policy for ProgLoad</h1>
+          <h1 className="text-3xl font-semibold mb-2">Privacy Policy for ProgLoad</h1>
           <p className="text-foreground-muted mb-8">
             <strong>Effective Date:</strong> March 8, 2026
             <br />
@@ -190,32 +204,31 @@ export default async function PrivacyPolicy({
           </p>
           <p className="mb-4 leading-relaxed">
             <strong>Ernesto Jaramillo</strong><br />
-            Email: <a href="mailto:support@progload.app" className="text-pl-primary hover:underline">support@progload.app</a>
+            Email: <a href="mailto:support@progload.app" className="text-pl-brand hover:underline">support@progload.app</a>
           </p>
         </article>
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border py-12">
+      <footer className="relative py-12">
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <Link href={`/${locale}`} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="w-8 h-8 bg-pl-primary rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                </svg>
+              <div className="w-8 h-8 brand-gradient rounded-lg flex items-center justify-center">
+                <LogoIcon className="w-4 h-4 text-white" />
               </div>
-              <span className="font-bold text-lg">ProgLoad</span>
+              <span className="font-semibold text-lg">ProgLoad</span>
             </Link>
             <div className="flex gap-8 text-foreground-muted text-sm font-medium">
               <span className="text-foreground">{dict.footer.privacy}</span>
-              <Link href={`/${locale}/terms`} className="hover:text-pl-primary transition-colors">
+              <Link href={`/${locale}/terms`} className="hover:text-pl-brand transition-colors">
                 {dict.footer.terms}
               </Link>
-              <Link href={`/${locale}/support`} className="hover:text-pl-primary transition-colors">
+              <Link href={`/${locale}/support`} className="hover:text-pl-brand transition-colors">
                 {dict.footer.support}
               </Link>
-              <a href="mailto:support@progload.app" className="hover:text-pl-primary transition-colors">
+              <a href="mailto:support@progload.app" className="hover:text-pl-brand transition-colors">
                 {dict.footer.contact}
               </a>
             </div>

@@ -1,18 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  /* ProgLoad Brand Colors */
-  --pl-primary: #3B82F6;
-  --pl-primary-dark: #60A5FA;
-  --pl-secondary: #8B5CF6;
-  --pl-secondary-dark: #A78BFA;
-  --pl-accent: #F59E0B;
-  --pl-accent-dark: #FBBF24;
+  /* ProgLoad Brand — warm orange to fitness red */
+  --pl-brand: #FF4D29;
+  --pl-brand-light: #FF6B35;
 
-  /* Semantic Colors */
-  --pl-success: #22C55E;
-  --pl-warning: #EAB308;
-  --pl-danger: #EF4444;
+  /* Functional colors (Apple system colors - light) */
+  --pl-blue: #007AFF;
+  --pl-green: #34C759;
+  --pl-orange: #FF9500;
+  --pl-red: #FF3B30;
+  --pl-purple: #AF52DE;
 
   /* Surface Colors - Light */
   --background: #F8F9FA;
@@ -24,12 +22,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --pl-primary: #60A5FA;
-    --pl-secondary: #A78BFA;
-    --pl-accent: #FBBF24;
-    --pl-success: #4ADE80;
-    --pl-warning: #FDE047;
-    --pl-danger: #F87171;
+    --pl-brand: #FF6B35;
+    --pl-brand-light: #FF8A5C;
+
+    --pl-blue: #0A84FF;
+    --pl-green: #30D158;
+    --pl-orange: #FF9F0A;
+    --pl-red: #FF453A;
+    --pl-purple: #BF5AF2;
 
     --background: #0F1012;
     --background-alt: #1A1C1E;
@@ -46,14 +46,15 @@
   --color-foreground-muted: var(--foreground-muted);
   --color-border: var(--border);
 
-  --color-pl-primary: var(--pl-primary);
-  --color-pl-secondary: var(--pl-secondary);
-  --color-pl-accent: var(--pl-accent);
-  --color-pl-success: var(--pl-success);
-  --color-pl-warning: var(--pl-warning);
-  --color-pl-danger: var(--pl-danger);
+  --color-pl-brand: var(--pl-brand);
+  --color-pl-brand-light: var(--pl-brand-light);
+  --color-pl-blue: var(--pl-blue);
+  --color-pl-green: var(--pl-green);
+  --color-pl-orange: var(--pl-orange);
+  --color-pl-red: var(--pl-red);
+  --color-pl-purple: var(--pl-purple);
 
-  --font-sans: var(--font-inter);
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, var(--font-inter), sans-serif;
 }
 
 body {
@@ -65,14 +66,51 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ---- Glass utility classes ---- */
+
+.glass-hero {
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  background: rgba(255, 255, 255, 0.72);
+}
+@media (prefers-color-scheme: dark) {
+  .glass-hero {
+    background: rgba(255, 255, 255, 0.06);
+  }
+}
+
+.glass-card {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.60);
+}
+@media (prefers-color-scheme: dark) {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.04);
+  }
+}
+
+.glass-subtle {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.50);
+}
+@media (prefers-color-scheme: dark) {
+  .glass-subtle {
+    background: rgba(255, 255, 255, 0.03);
+  }
+}
+
+/* ---- Animations ---- */
+
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.5); }
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 77, 41, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(255, 77, 41, 0.5); }
 }
 
 .animate-float {
@@ -81,4 +119,17 @@ html {
 
 .animate-pulse-glow {
   animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* ---- Brand gradient utility ---- */
+
+.brand-gradient {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF4D2A 45%, #E8192C 100%);
+}
+
+.brand-gradient-text {
+  background: linear-gradient(135deg, #FF6B35 0%, #E8192C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
