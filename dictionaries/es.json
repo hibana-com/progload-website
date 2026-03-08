@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "howItWorks": "Como funciona",
+    "features": "Funciones",
+    "downloadFree": "Descargar Gratis"
+  },
+  "hero": {
+    "badge": "Entrena Mejor",
+    "title": "Tu Coach en Tu Bolsillo.",
+    "titleHighlight": "Tu Progreso en Tu Muneca.",
+    "description": "ProgLoad conecta coaches y atletas sin complicaciones. Crea rutinas, registra entrenamientos en iPhone y Apple Watch, y observa tu progreso real.",
+    "cta": "Descargar Gratis",
+    "secondary": "Ver Como Funciona"
+  },
+  "howItWorks": {
+    "title": "Como",
+    "titleHighlight": "ProgLoad",
+    "titleEnd": "Funciona",
+    "description": "De la creacion de rutinas al registro de entrenamientos en tres simples pasos.",
+    "step1Title": "El Coach Crea Rutinas",
+    "step1Description": "Los coaches crean rutinas de entrenamiento con ejercicios, series, repeticiones y objetivos de peso. Asigna rutinas a cualquier cliente con un solo toque.",
+    "step2Title": "Los Atletas Entrenan",
+    "step2Description": "Los clientes ven su rutina asignada y registran cada serie con peso y repeticiones. Registra entrenamientos en iPhone o directamente desde Apple Watch.",
+    "step3Title": "Revision y Progreso",
+    "step3Description": "Los coaches revisan entrenamientos completados, dejan comentarios y ajustan rutinas. Los atletas ven su progreso con estadisticas por ejercicio."
+  },
+  "features": {
+    "title": "Hecho para",
+    "titleHighlight": "Entrenar de Verdad",
+    "description": "Todo lo que coaches y atletas necesitan, nada que no.",
+    "feature1Title": "Registro en Apple Watch",
+    "feature1Description": "Registra series, repeticiones y peso desde tu muneca. ProgLoad se integra con HealthKit para monitorear frecuencia cardiaca y calorias durante el entrenamiento.",
+    "feature2Title": "Panel de Coach",
+    "feature2Description": "Administra todos tus clientes en un solo lugar. Crea plantillas de rutinas, asignalas a atletas y revisa sus entrenamientos completados con retroalimentacion.",
+    "feature3Title": "Sobrecarga Progresiva",
+    "feature3Description": "Rastrea estadisticas de ejercicios a lo largo del tiempo. Ve tu peso maximo, volumen total e historial de progresion para cada ejercicio."
+  },
+  "trust": {
+    "title": "Tus Datos, Tu Control",
+    "description": "ProgLoad esta construido con la privacidad en mente. Tus datos de entrenamiento quedan entre tu y tu coach.",
+    "private": "Privado por Defecto",
+    "privateDescription": "Tus entrenamientos solo son visibles para ti y tu coach asignado.",
+    "sync": "Sincronizacion en Tiempo Real",
+    "syncDescription": "Los entrenamientos se sincronizan al instante entre iPhone, Apple Watch y el panel de tu coach.",
+    "secure": "Seguro y Encriptado",
+    "secureDescription": "Todos los datos estan encriptados en transito y en reposo usando la infraestructura de seguridad de Firebase."
+  },
+  "story": {
+    "title": "Por Que Creamos ProgLoad",
+    "descriptionPart1": "Notamos un vacio: los coaches programan entrenamientos en hojas de calculo y los atletas olvidan cuanto levantaron la semana pasada. Lo que faltaba no eran mejores herramientas de planificacion. Era",
+    "descriptionHighlight": "conexion en tiempo real",
+    "descriptionPart2": " entre coach y atleta. ProgLoad cierra esa brecha para que todos esten en sincronia.",
+    "attribution": "-- Creado para coaches y atletas"
+  },
+  "download": {
+    "title": "Listo para Entrenar Mejor?",
+    "description": "Descarga ProgLoad y conecta con tu coach hoy.",
+    "appStore": "App Store",
+    "appStoreLabel": "Descargar en",
+    "comingSoon": "Proximamente en el App Store"
+  },
+  "legal": {
+    "privacyTitle": "Politica de Privacidad",
+    "privacyDescription": "Conoce como ProgLoad recopila, usa y protege tu informacion personal.",
+    "termsTitle": "Terminos de Servicio",
+    "termsDescription": "Lee los terminos y condiciones para usar la app ProgLoad."
+  },
+  "footer": {
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio",
+    "support": "Soporte",
+    "contact": "Contacto",
+    "copyright": "© {year} ProgLoad. Todos los derechos reservados."
+  },
+  "support": {
+    "title": "Soporte",
+    "description": "Tienes alguna pregunta o problema? Estamos aqui para ayudarte.",
+    "contactTitle": "Contactanos",
+    "contactDescription": "Para cualquier pregunta, reporte de errores o comentarios, envianos un correo y te responderemos lo antes posible.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "Como creo una cuenta?",
+    "faq1Answer": "Descarga ProgLoad desde el App Store, toca Registrarse y crea tu cuenta con un correo electronico. Elegiras tu nombre y seleccionaras si eres coach o atleta.",
+    "faq2Question": "Como funciona la conexion coach-atleta?",
+    "faq2Answer": "Los coaches agregan clientes por su correo electronico. El cliente recibe una invitacion y una vez aceptada, el coach puede asignar rutinas y revisar sus entrenamientos completados.",
+    "faq3Question": "Puedo usar ProgLoad sin un coach?",
+    "faq3Answer": "Si! Puedes crear tus propias rutinas y registrar entrenamientos de forma independiente. La funcion de coach es opcional -- ProgLoad funciona muy bien para entrenamiento autoguiado.",
+    "faq4Question": "Como funciona el registro en Apple Watch?",
+    "faq4Answer": "Abre ProgLoad en tu Apple Watch para ver el entrenamiento de hoy. Desliza entre ejercicios, ajusta peso y repeticiones con la Digital Crown, y toca para completar cada serie. La integracion con HealthKit registra tu frecuencia cardiaca y calorias automaticamente.",
+    "faq5Question": "Como elimino mi cuenta?",
+    "faq5Answer": "Puedes solicitar la eliminacion de tu cuenta enviando un correo a support@progload.app. Eliminaremos todos tus datos personales dentro de 30 dias de tu solicitud, como se describe en nuestra Politica de Privacidad.",
+    "faq6Question": "ProgLoad esta disponible en mi idioma?",
+    "faq6Answer": "ProgLoad esta actualmente disponible en ingles y espanol. La app usara automaticamente el idioma de tu dispositivo si es compatible. Si deseas sugerir un nuevo idioma, envianos un correo.",
+    "linksTitle": "Enlaces Utiles"
+  }
+}

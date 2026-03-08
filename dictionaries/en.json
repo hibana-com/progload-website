@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "howItWorks": "How it works",
+    "features": "Features",
+    "downloadFree": "Download Free"
+  },
+  "hero": {
+    "badge": "Train Smarter",
+    "title": "Your Coach in Your Pocket.",
+    "titleHighlight": "Your Progress on Your Wrist.",
+    "description": "ProgLoad connects coaches and athletes seamlessly. Build routines, track workouts on iPhone and Apple Watch, and see real progress over time.",
+    "cta": "Download Free",
+    "secondary": "See How It Works"
+  },
+  "howItWorks": {
+    "title": "How",
+    "titleHighlight": "ProgLoad",
+    "titleEnd": "Works",
+    "description": "From routine creation to workout tracking in three simple steps.",
+    "step1Title": "Coach Creates Routines",
+    "step1Description": "Coaches build workout routines with exercises, sets, reps, and weight targets. Assign routines to any customer with a single tap.",
+    "step2Title": "Athletes Train",
+    "step2Description": "Customers see their assigned routine and log each set with weight and reps. Track workouts on iPhone or directly from Apple Watch.",
+    "step3Title": "Review & Progress",
+    "step3Description": "Coaches review completed workouts, leave feedback, and adjust routines. Athletes see their progress over time with exercise stats."
+  },
+  "features": {
+    "title": "Built for",
+    "titleHighlight": "Real Training",
+    "description": "Everything coaches and athletes need, nothing they don't.",
+    "feature1Title": "Apple Watch Logging",
+    "feature1Description": "Log sets, reps, and weight right from your wrist. ProgLoad integrates with HealthKit to track heart rate and calories during workouts.",
+    "feature2Title": "Coach Dashboard",
+    "feature2Description": "Manage all your customers in one place. Create routine templates, assign them to athletes, and review their completed workouts with feedback.",
+    "feature3Title": "Progressive Overload",
+    "feature3Description": "Track exercise stats over time. See your max weight, total volume, and progression history for every exercise to ensure you're getting stronger."
+  },
+  "trust": {
+    "title": "Your Data, Your Control",
+    "description": "ProgLoad is built with privacy in mind. Your workout data stays between you and your coach.",
+    "private": "Private by Default",
+    "privateDescription": "Your workouts are only visible to you and your assigned coach.",
+    "sync": "Real-Time Sync",
+    "syncDescription": "Workouts sync instantly between iPhone, Apple Watch, and your coach's dashboard.",
+    "secure": "Secure & Encrypted",
+    "secureDescription": "All data is encrypted in transit and at rest using Firebase's security infrastructure."
+  },
+  "story": {
+    "title": "Why We Built ProgLoad",
+    "descriptionPart1": "We noticed a gap: coaches program workouts in spreadsheets and athletes forget what they lifted last week. The missing piece wasn't better planning tools. It was",
+    "descriptionHighlight": "real-time connection",
+    "descriptionPart2": " between coach and athlete. ProgLoad bridges that gap so everyone stays on the same page.",
+    "attribution": "-- Built for coaches and athletes"
+  },
+  "download": {
+    "title": "Ready to Train Smarter?",
+    "description": "Download ProgLoad and connect with your coach today.",
+    "appStore": "App Store",
+    "appStoreLabel": "Download on the",
+    "comingSoon": "Coming Soon to the App Store"
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "privacyDescription": "Learn how ProgLoad collects, uses, and protects your personal information.",
+    "termsTitle": "Terms of Service",
+    "termsDescription": "Read the terms and conditions for using the ProgLoad app."
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "contact": "Contact",
+    "copyright": "© {year} ProgLoad. All rights reserved."
+  },
+  "support": {
+    "title": "Support",
+    "description": "Have a question or running into an issue? We're here to help.",
+    "contactTitle": "Get in Touch",
+    "contactDescription": "For any questions, bug reports, or feedback, send us an email and we'll get back to you as soon as we can.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How do I create an account?",
+    "faq1Answer": "Download ProgLoad from the App Store, tap Sign Up, and create your account with an email address. You'll choose your name and select whether you're a coach or an athlete.",
+    "faq2Question": "How does the coach-athlete connection work?",
+    "faq2Answer": "Coaches add customers by their email address. The customer receives an invitation and once accepted, the coach can assign routines and review their completed workouts.",
+    "faq3Question": "Can I use ProgLoad without a coach?",
+    "faq3Answer": "Yes! You can create your own routines and track workouts independently. The coach feature is optional -- ProgLoad works great for self-guided training too.",
+    "faq4Question": "How does Apple Watch logging work?",
+    "faq4Answer": "Open ProgLoad on your Apple Watch to see today's workout. Swipe between exercises, adjust weight and reps with the Digital Crown, and tap to complete each set. HealthKit integration tracks your heart rate and calories automatically.",
+    "faq5Question": "How do I delete my account?",
+    "faq5Answer": "You can request account deletion by emailing support@progload.app. We'll delete all your personal data within 30 days of your request, as described in our Privacy Policy.",
+    "faq6Question": "Is ProgLoad available in my language?",
+    "faq6Answer": "ProgLoad is currently available in English and Spanish. The app will automatically use your device's language if supported. If you'd like to suggest a new language, please email us.",
+    "linksTitle": "Helpful Links"
+  }
+}
