@@ -6,10 +6,12 @@
   },
   "hero": {
     "badge": "Entrena Mejor",
+    "overline": "iPhone y Apple Watch",
     "title": "Registra Tus Pesos.",
     "titleHighlight": "Ve Tu Progreso.",
-    "description": "ProgLoad te ayuda a recordar cuanto levantaste y a superarte cada vez. Crea rutinas, registra entrenamientos en iPhone y Apple Watch, y nunca adivines tus pesos de nuevo.",
+    "description": "La forma mas simple de recordar cuanto levantaste y superarte cada vez.",
     "cta": "Descargar Gratis",
+    "secondaryCta": "Conoce mas",
     "secondary": "Ver Como Funciona"
   },
   "howItWorks": {
@@ -35,6 +37,42 @@
     "feature3Title": "Sobrecarga Progresiva",
     "feature3Description": "Rastrea estadisticas de ejercicios a lo largo del tiempo. Ve tu peso maximo, volumen total e historial de progresion para cada ejercicio."
   },
+  "iphoneShowcase": {
+    "overline": "REGISTRO DE ENTRENAMIENTOS",
+    "headline": "Crea tu rutina. Registra cada serie.",
+    "body": "Crea rutinas con ejercicios, series y objetivos de repeticiones. Registra cada serie en tiempo real mientras entrenas. Usa la biblioteca de ejercicios incluida o agrega los tuyos."
+  },
+  "watchShowcase": {
+    "overline": "APPLE WATCH",
+    "headline": "Registra series desde tu muneca.",
+    "body": "Desliza entre ejercicios. Ajusta el peso con la Digital Crown. Toca para completar cada serie. HealthKit registra tu frecuencia cardiaca y calorias automaticamente."
+  },
+  "overload": {
+    "overline": "SOBRECARGA PROGRESIVA",
+    "headline": "Ve tus numeros subir.",
+    "body": "Rastrea tu peso maximo, volumen total y progresion de repeticiones para cada ejercicio. Sabe que estas progresando, no solo adivinando."
+  },
+  "modes": {
+    "headline": "Entrena solo. O con un coach.",
+    "body": "ProgLoad funciona de ambas formas. No necesitas coach.",
+    "soloTitle": "Autoguiado",
+    "soloPoint1": "Crea tus propias rutinas",
+    "soloPoint2": "Biblioteca con mas de 280 ejercicios",
+    "soloPoint3": "Rastrea tu progreso a lo largo del tiempo",
+    "coachTitle": "Con Coach",
+    "coachPoint1": "Tu coach crea tu programa",
+    "coachPoint2": "Revision de entrenamientos y retroalimentacion",
+    "coachPoint3": "Sincronizacion en tiempo real entre tu y tu coach"
+  },
+  "privacy": {
+    "headline": "Tus datos. Tu control.",
+    "privateTitle": "Privado por Defecto",
+    "privateBody": "Tus entrenamientos solo son visibles para ti. Comparte con un coach solo si tu quieres.",
+    "syncTitle": "Sincronizado en Todos Lados",
+    "syncBody": "Tus datos se sincronizan al instante entre iPhone y Apple Watch. Siempre al dia.",
+    "secureTitle": "Encriptado y Seguro",
+    "secureBody": "Todos los datos encriptados en transito y en reposo. Construido sobre la infraestructura de seguridad de Firebase."
+  },
   "trust": {
     "title": "Tus Datos, Tu Control",
     "description": "ProgLoad esta construido con la privacidad en mente. Tus datos de entrenamiento son tuyos.",
@@ -46,6 +84,8 @@
     "secureDescription": "Todos los datos estan encriptados en transito y en reposo usando la infraestructura de seguridad de Firebase."
   },
   "story": {
+    "headline": "Creado por lifters, para lifters.",
+    "quote": "Siempre olvidabamos cuanto levantamos la semana pasada y no sabiamos si realmente estabamos progresando. No necesitabamos una app complicada — solo una forma simple de registrar nuestros pesos y ver progreso. ProgLoad es la app que deseabamos tener cuando empezamos a entrenar.",
     "title": "Por Que Creamos ProgLoad",
     "descriptionPart1": "Siempre olvidabamos cuanto levantamos la semana pasada y no sabiamos si realmente estabamos progresando. No necesitabamos una app complicada. Necesitabamos una forma simple de",
     "descriptionHighlight": "registrar nuestros pesos y ver nuestro progreso",
@@ -53,6 +93,9 @@
     "attribution": "-- Creado por lifters, para lifters"
   },
   "download": {
+    "headline": "Empieza a entrenar mejor.",
+    "body": "Descarga ProgLoad gratis.",
+    "cta": "Proximamente en el App Store",
     "title": "Listo para Entrenar Mejor?",
     "description": "Descarga ProgLoad y empieza a registrar tus entrenamientos hoy.",
     "appStore": "App Store",

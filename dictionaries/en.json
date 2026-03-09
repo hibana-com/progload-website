@@ -6,10 +6,12 @@
   },
   "hero": {
     "badge": "Train Smarter",
+    "overline": "iPhone & Apple Watch",
     "title": "Track Your Lifts.",
     "titleHighlight": "See Your Progress.",
-    "description": "ProgLoad helps you remember what you lifted and push harder next time. Build routines, log workouts on iPhone and Apple Watch, and never guess your weights again.",
+    "description": "The simplest way to remember what you lifted and push harder next time.",
     "cta": "Download Free",
+    "secondaryCta": "Learn more",
     "secondary": "See How It Works"
   },
   "howItWorks": {
@@ -35,6 +37,42 @@
     "feature3Title": "Progressive Overload",
     "feature3Description": "Track exercise stats over time. See your max weight, total volume, and progression history for every exercise to ensure you're getting stronger."
   },
+  "iphoneShowcase": {
+    "overline": "WORKOUT LOGGING",
+    "headline": "Build your routine. Log every set.",
+    "body": "Create routines with exercises, sets, and rep targets. Log each set in real time as you train. Use the built-in exercise library or add your own custom exercises."
+  },
+  "watchShowcase": {
+    "overline": "APPLE WATCH",
+    "headline": "Log sets right from your wrist.",
+    "body": "Swipe between exercises. Adjust weight with the Digital Crown. Tap to complete each set. HealthKit tracks your heart rate and calories automatically."
+  },
+  "overload": {
+    "overline": "PROGRESSIVE OVERLOAD",
+    "headline": "See your numbers go up.",
+    "body": "Track your max weight, total volume, and rep progression for every exercise. Know you're getting stronger, not just guessing."
+  },
+  "modes": {
+    "headline": "Train solo. Or with a coach.",
+    "body": "ProgLoad works both ways. No coach required.",
+    "soloTitle": "Self-Guided",
+    "soloPoint1": "Create your own routines",
+    "soloPoint2": "Full exercise library with 280+ exercises",
+    "soloPoint3": "Track your progress over time",
+    "coachTitle": "With a Coach",
+    "coachPoint1": "Coach builds your program",
+    "coachPoint2": "Workout review and feedback",
+    "coachPoint3": "Real-time sync between you and your coach"
+  },
+  "privacy": {
+    "headline": "Your data. Your control.",
+    "privateTitle": "Private by Default",
+    "privateBody": "Your workouts are only visible to you. Share with a coach only if you choose to.",
+    "syncTitle": "Synced Everywhere",
+    "syncBody": "Your data syncs instantly between iPhone and Apple Watch. Always up to date.",
+    "secureTitle": "Encrypted & Secure",
+    "secureBody": "All data encrypted in transit and at rest. Built on Firebase's security infrastructure."
+  },
   "trust": {
     "title": "Your Data, Your Control",
     "description": "ProgLoad is built with privacy in mind. Your workout data is yours.",
@@ -46,6 +84,8 @@
     "secureDescription": "All data is encrypted in transit and at rest using Firebase's security infrastructure."
   },
   "story": {
+    "headline": "Built by lifters, for lifters.",
+    "quote": "We kept forgetting what we lifted last week and couldn't tell if we were actually getting stronger. We didn't need a complicated app — just a simple way to track our weights and see progress. ProgLoad is the app we wished we had when we started training.",
     "title": "Why We Built ProgLoad",
     "descriptionPart1": "We kept forgetting what we lifted last week and couldn't tell if we were actually getting stronger. We didn't need a complicated app. We needed a simple way to",
     "descriptionHighlight": "track our weights and see progress",
@@ -53,6 +93,9 @@
     "attribution": "-- Built by lifters, for lifters"
   },
   "download": {
+    "headline": "Start training smarter.",
+    "body": "Download ProgLoad free.",
+    "cta": "Coming Soon to the App Store",
     "title": "Ready to Train Smarter?",
     "description": "Download ProgLoad and start tracking your workouts today.",
     "appStore": "App Store",
