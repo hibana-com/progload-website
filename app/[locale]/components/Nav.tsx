@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { type Locale } from '@/i18n.config';
+import { type Locale, locales } from '@/i18n.config';
 import LogoIcon from './LogoIcon';
 
 interface NavProps {
@@ -9,9 +9,16 @@ interface NavProps {
   downloadLabel: string;
 }
 
+const localeLabels: Record<Locale, string> = {
+  en: 'EN',
+  es: 'ES',
+  pt: 'PT',
+};
+
 export default function Nav({ locale, downloadLabel }: NavProps) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -19,8 +26,15 @@ export default function Nav({ locale, downloadLabel }: NavProps) {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const otherLocale = locale === 'en' ? 'es' : 'en';
-  const otherLocaleLabel = locale === 'en' ? 'ES' : 'EN';
+  // Close language dropdown on outside click
+  useEffect(() => {
+    if (!langOpen) return;
+    const onClick = () => setLangOpen(false);
+    document.addEventListener('click', onClick);
+    return () => document.removeEventListener('click', onClick);
+  }, [langOpen]);
+
+  const otherLocales = locales.filter((l) => l !== locale);
 
   return (
     <nav
@@ -31,7 +45,7 @@ export default function Nav({ locale, downloadLabel }: NavProps) {
       <div className="max-w-7xl mx-auto px-6 h-12 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
-          <LogoIcon className="w-5 h-5 text-[#FF6B35]" />
+          <LogoIcon className="w-5 h-5 text-[#007AFF]" />
           <span className="text-base font-semibold text-white tracking-tight">ProgLoad</span>
         </div>
 
@@ -46,15 +60,36 @@ export default function Nav({ locale, downloadLabel }: NavProps) {
           <a href="#overload" className="text-sm text-white/60 hover:text-white transition-colors">
             Progress
           </a>
-          <Link
-            href={`/${otherLocale}`}
-            className="text-sm text-white/60 hover:text-white transition-colors font-medium"
-          >
-            {otherLocaleLabel}
-          </Link>
+
+          {/* Language dropdown */}
+          <div className="relative">
+            <button
+              onClick={(e) => { e.stopPropagation(); setLangOpen(!langOpen); }}
+              className="text-sm text-white/60 hover:text-white transition-colors font-medium flex items-center gap-1"
+            >
+              {localeLabels[locale]}
+              <svg className={`w-3 h-3 transition-transform ${langOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {langOpen && (
+              <div className="absolute top-full mt-2 right-0 bg-[#1C1C1E] border border-white/10 rounded-lg overflow-hidden min-w-[100px] shadow-xl">
+                {otherLocales.map((l) => (
+                  <Link
+                    key={l}
+                    href={`/${l}`}
+                    className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/10 transition-colors"
+                  >
+                    {localeLabels[l]}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           <a
             href="#download"
-            className="bg-white/10 border border-white/10 rounded-full px-5 py-2 text-sm text-white font-medium hover:bg-white/20 transition-colors"
+            className="bg-[#007AFF] rounded-full px-5 py-2 text-sm text-white font-medium hover:bg-[#0A84FF] transition-colors"
           >
             {downloadLabel}
           </a>
@@ -102,13 +137,25 @@ export default function Nav({ locale, downloadLabel }: NavProps) {
           >
             Progress
           </a>
-          <Link href={`/${otherLocale}`} className="text-sm text-white/60 hover:text-white transition-colors py-1">
-            {otherLocaleLabel}
-          </Link>
+          <div className="flex items-center gap-3 py-1">
+            {locales.map((l) => (
+              <Link
+                key={l}
+                href={`/${l}`}
+                className={`text-sm transition-colors ${
+                  l === locale
+                    ? 'text-[#007AFF] font-semibold'
+                    : 'text-white/60 hover:text-white'
+                }`}
+              >
+                {localeLabels[l]}
+              </Link>
+            ))}
+          </div>
           <a
             href="#download"
             onClick={() => setMenuOpen(false)}
-            className="text-sm text-white font-medium bg-white/10 border border-white/10 rounded-full px-5 py-2 text-center hover:bg-white/20 transition-colors"
+            className="text-sm text-white font-medium bg-[#007AFF] rounded-full px-5 py-2 text-center hover:bg-[#0A84FF] transition-colors"
           >
             {downloadLabel}
           </a>

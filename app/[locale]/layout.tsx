@@ -53,8 +53,8 @@ export default async function LocaleLayout({
   const locale = localeParam as Locale;
 
   return (
-    <html lang={locale}>
-      <body className={`${inter.variable} font-sans antialiased`}>
+    <html lang={locale} className="dark" style={{ colorScheme: 'dark' }}>
+      <body className={`${inter.variable} font-sans antialiased bg-black text-white`}>
         {children}
       </body>
     </html>

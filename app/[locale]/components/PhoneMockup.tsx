@@ -7,11 +7,10 @@ interface PhoneMockupProps {
 
 export default function PhoneMockup({ variant = 'dark', size = 'md' }: PhoneMockupProps) {
   const widthClass = size === 'sm' ? 'w-[220px]' : size === 'lg' ? 'w-[320px]' : 'w-[270px]';
-  const isDark = variant === 'dark';
 
-  const frameBg = isDark ? '#1C1C1E' : '#2C2C2E';
-  const screenBg = isDark ? '#000000' : '#111111';
-  const cardBg = isDark ? 'rgba(255,255,255,0.06)' : 'rgba(255,255,255,0.08)';
+  const frameBg = '#1C1C1E';
+  const screenBg = '#000000';
+  const cardBg = 'rgba(255,255,255,0.06)';
   const textColor = '#FFFFFF';
   const mutedColor = 'rgba(255,255,255,0.45)';
   const borderColor = 'rgba(255,255,255,0.08)';
@@ -69,7 +68,7 @@ export default function PhoneMockup({ variant = 'dark', size = 'md' }: PhoneMock
               </div>
               <div
                 className="flex items-center justify-center"
-                style={{ width: 28, height: 28, borderRadius: 8, background: 'linear-gradient(135deg, #FF6B35, #E8192C)' }}
+                style={{ width: 28, height: 28, borderRadius: 8, background: 'linear-gradient(135deg, #007AFF, #5977B1)' }}
               >
                 <LogoIcon className="w-3.5 h-3.5 text-white" />
               </div>
@@ -87,9 +86,9 @@ export default function PhoneMockup({ variant = 'dark', size = 'md' }: PhoneMock
               <div style={{ fontSize: '10px', color: mutedColor, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 8 }}>EXERCISES</div>
               <div className="flex flex-col" style={{ gap: 8 }}>
                 {[
-                  { name: 'Bench Press', sets: '4 × 8', weight: '185 lb', done: true },
-                  { name: 'Incline DB Press', sets: '3 × 10', weight: '65 lb', done: true },
-                  { name: 'Cable Fly', sets: '3 × 12', weight: '40 lb', done: false },
+                  { name: 'Bench Press', sets: '4 \u00d7 8', weight: '185 lb', done: true },
+                  { name: 'Incline DB Press', sets: '3 \u00d7 10', weight: '65 lb', done: true },
+                  { name: 'Cable Fly', sets: '3 \u00d7 12', weight: '40 lb', done: false },
                 ].map((ex, i) => (
                   <div key={i}>
                     {i > 0 && <div style={{ height: 1, background: dividerColor, marginBottom: 8 }} />}
@@ -99,7 +98,7 @@ export default function PhoneMockup({ variant = 'dark', size = 'md' }: PhoneMock
                           width: 16,
                           height: 16,
                           borderRadius: '50%',
-                          background: ex.done ? 'linear-gradient(135deg, #FF6B35, #E8192C)' : 'transparent',
+                          background: ex.done ? 'linear-gradient(135deg, #007AFF, #5977B1)' : 'transparent',
                           border: ex.done ? 'none' : `1.5px solid ${mutedColor}`,
                           display: 'flex',
                           alignItems: 'center',
@@ -156,7 +155,7 @@ export default function PhoneMockup({ variant = 'dark', size = 'md' }: PhoneMock
             <div
               style={{
                 borderRadius: 10,
-                background: 'linear-gradient(135deg, #FF6B35, #E8192C)',
+                background: 'linear-gradient(135deg, #007AFF, #5977B1)',
                 padding: '10px',
                 textAlign: 'center',
                 color: '#fff',

@@ -80,7 +80,7 @@ export default function WatchMockup() {
                     flex: 1,
                     height: 20,
                     borderRadius: 5,
-                    background: done ? 'linear-gradient(135deg, #FF6B35, #E8192C)' : 'rgba(255,255,255,0.12)',
+                    background: done ? 'linear-gradient(135deg, #007AFF, #5977B1)' : 'rgba(255,255,255,0.12)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -125,7 +125,7 @@ export default function WatchMockup() {
             style={{
               margin: '6px 8px 8px',
               borderRadius: 8,
-              background: 'linear-gradient(135deg, #FF6B35, #E8192C)',
+              background: 'linear-gradient(135deg, #007AFF, #5977B1)',
               padding: '7px',
               textAlign: 'center',
               color: '#fff',

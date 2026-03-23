@@ -1,42 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  /* ProgLoad Brand — warm orange to fitness red */
-  --pl-brand: #FF4D29;
-  --pl-brand-light: #FF6B35;
+  /* ProgLoad Brand — Cupertino Night */
+  --pl-brand: #007AFF;
+  --pl-brand-light: #5977B1;
+  --pl-ai: #AF52DE;
 
-  /* Functional colors (Apple system colors - light) */
-  --pl-blue: #007AFF;
-  --pl-green: #34C759;
-  --pl-orange: #FF9500;
-  --pl-red: #FF3B30;
-  --pl-purple: #AF52DE;
+  /* Functional colors (Apple system colors - dark) */
+  --pl-blue: #0A84FF;
+  --pl-green: #30D158;
+  --pl-orange: #FF9F0A;
+  --pl-red: #FF453A;
+  --pl-purple: #BF5AF2;
 
-  /* Surface Colors - Light */
-  --background: #F8F9FA;
-  --background-alt: #FFFFFF;
-  --foreground: #1A1C1E;
-  --foreground-muted: #6B7280;
-  --border: #E5E7EB;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --pl-brand: #FF6B35;
-    --pl-brand-light: #FF8A5C;
-
-    --pl-blue: #0A84FF;
-    --pl-green: #30D158;
-    --pl-orange: #FF9F0A;
-    --pl-red: #FF453A;
-    --pl-purple: #BF5AF2;
-
-    --background: #0F1012;
-    --background-alt: #1A1C1E;
-    --foreground: #F5F5F5;
-    --foreground-muted: #9CA3AF;
-    --border: #374151;
-  }
+  /* Surface Colors - Dark only */
+  --background: #000000;
+  --background-alt: #111111;
+  --foreground: #F5F5F5;
+  --foreground-muted: #9CA3AF;
+  --border: #374151;
 }
 
 @theme inline {
@@ -48,6 +30,7 @@
 
   --color-pl-brand: var(--pl-brand);
   --color-pl-brand-light: var(--pl-brand-light);
+  --color-pl-ai: var(--pl-ai);
   --color-pl-blue: var(--pl-blue);
   --color-pl-green: var(--pl-green);
   --color-pl-orange: var(--pl-orange);
@@ -64,49 +47,35 @@ body {
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
-/* ---- Glass utility classes ---- */
+/* ---- Glass utility classes (dark only) ---- */
 
 .glass-hero {
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  background: rgba(255, 255, 255, 0.72);
-}
-@media (prefers-color-scheme: dark) {
-  .glass-hero {
-    background: rgba(255, 255, 255, 0.06);
-  }
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .glass-card {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.60);
-}
-@media (prefers-color-scheme: dark) {
-  .glass-card {
-    background: rgba(255, 255, 255, 0.04);
-  }
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .glass-subtle {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  background: rgba(255, 255, 255, 0.50);
-}
-@media (prefers-color-scheme: dark) {
-  .glass-subtle {
-    background: rgba(255, 255, 255, 0.03);
-  }
+  background: rgba(255, 255, 255, 0.03);
 }
 
 /* ---- Apple signature colors ---- */
 
 :root {
   --color-apple-gray: #86868b;
-  --color-apple-bg: #F5F5F7;
-  --color-apple-dark: #1d1d1f;
+  --color-apple-bg: #000000;
+  --color-apple-dark: #f5f5f7;
 }
 
 /* ---- Scroll reveal animations ---- */
@@ -143,8 +112,8 @@ html {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(255, 77, 41, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(255, 77, 41, 0.5); }
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 122, 255, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(0, 122, 255, 0.5); }
 }
 
 .animate-float {
@@ -158,11 +127,11 @@ html {
 /* ---- Brand gradient utility ---- */
 
 .brand-gradient {
-  background: linear-gradient(135deg, #FF6B35 0%, #FF4D2A 45%, #E8192C 100%);
+  background: linear-gradient(135deg, #007AFF 0%, #5977B1 100%);
 }
 
 .brand-gradient-text {
-  background: linear-gradient(135deg, #FF6B35 0%, #E8192C 100%);
+  background: linear-gradient(135deg, #007AFF 0%, #5977B1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

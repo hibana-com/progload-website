@@ -39,28 +39,28 @@ export default async function Home({
         secondaryCta={dict.hero.secondaryCta}
       />
 
-      {/* 2. iPhone Showcase — Light */}
+      {/* 2. iPhone Showcase */}
       <IPhoneShowcase
         overline={dict.iphoneShowcase.overline}
         headline={dict.iphoneShowcase.headline}
         body={dict.iphoneShowcase.body}
       />
 
-      {/* 3. Apple Watch Showcase — Dark */}
+      {/* 3. Apple Watch Showcase */}
       <WatchShowcase
         overline={dict.watchShowcase.overline}
         headline={dict.watchShowcase.headline}
         body={dict.watchShowcase.body}
       />
 
-      {/* 4. Progressive Overload — Light */}
+      {/* 4. Progressive Overload */}
       <OverloadSection
         overline={dict.overload.overline}
         headline={dict.overload.headline}
         body={dict.overload.body}
       />
 
-      {/* 5. Works Your Way — Light warm gray */}
+      {/* 5. Works Your Way */}
       <WorksYourWay
         headline={dict.modes.headline}
         body={dict.modes.body}
@@ -70,7 +70,7 @@ export default async function Home({
         coachPoints={[dict.modes.coachPoint1, dict.modes.coachPoint2, dict.modes.coachPoint3]}
       />
 
-      {/* 6. Privacy & Trust — Dark */}
+      {/* 6. Privacy & Trust */}
       <PrivacySection
         headline={dict.privacy.headline}
         privateTitle={dict.privacy.privateTitle}
@@ -81,13 +81,13 @@ export default async function Home({
         secureBody={dict.privacy.secureBody}
       />
 
-      {/* 7. Origin Story — Light */}
+      {/* 7. Origin Story */}
       <StorySection
         headline={dict.story.headline}
         quote={dict.story.quote}
       />
 
-      {/* 8. Download CTA — Dark */}
+      {/* 8. Download CTA */}
       <DownloadCTA
         headline={dict.download.headline}
         body={dict.download.body}

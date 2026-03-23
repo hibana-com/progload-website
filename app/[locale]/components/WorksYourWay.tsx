@@ -20,7 +20,7 @@ export default function WorksYourWay({
   return (
     <section
       className="py-32 px-6"
-      style={{ background: '#F5F5F7' }}
+      style={{ background: '#000000' }}
     >
       <div className="max-w-5xl mx-auto">
         <ScrollReveal className="text-center mb-16">
@@ -29,14 +29,14 @@ export default function WorksYourWay({
             style={{
               fontSize: 'clamp(2rem, 4vw, 3.5rem)',
               lineHeight: 1.08,
-              color: '#1d1d1f',
+              color: '#F5F5F7',
             }}
           >
             {headline}
           </h2>
           <p
             className="mt-4"
-            style={{ fontSize: '1.125rem', color: '#86868b' }}
+            style={{ fontSize: '1.125rem', color: 'rgba(255,255,255,0.5)' }}
           >
             {body}
           </p>
@@ -46,20 +46,23 @@ export default function WorksYourWay({
           {/* Solo panel */}
           <ScrollReveal delay={0}>
             <div
-              className="rounded-3xl p-10 shadow-sm"
-              style={{ background: '#FFFFFF' }}
+              className="rounded-3xl p-10"
+              style={{
+                background: 'rgba(255,255,255,0.04)',
+                border: '1px solid rgba(255,255,255,0.08)',
+              }}
             >
               <div
                 className="w-12 h-12 mb-6 flex items-center justify-center rounded-2xl"
-                style={{ background: 'rgba(255,107,53,0.1)' }}
+                style={{ background: 'rgba(0,122,255,0.12)' }}
               >
-                <svg className="w-6 h-6" style={{ color: '#FF6B35' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6" style={{ color: '#007AFF' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
               <h3
                 className="font-semibold mb-6"
-                style={{ fontSize: '1.375rem', color: '#1d1d1f' }}
+                style={{ fontSize: '1.375rem', color: '#F5F5F7' }}
               >
                 {soloTitle}
               </h3>
@@ -68,14 +71,14 @@ export default function WorksYourWay({
                   <li key={point} className="flex items-start gap-3">
                     <svg
                       className="w-5 h-5 mt-0.5 flex-shrink-0"
-                      style={{ color: '#FF6B35' }}
+                      style={{ color: '#007AFF' }}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span style={{ fontSize: '1rem', color: '#1d1d1f', lineHeight: 1.5 }}>{point}</span>
+                    <span style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.5 }}>{point}</span>
                   </li>
                 ))}
               </ul>
@@ -85,20 +88,23 @@ export default function WorksYourWay({
           {/* Coach panel */}
           <ScrollReveal delay={100}>
             <div
-              className="rounded-3xl p-10 shadow-sm"
-              style={{ background: '#FFFFFF' }}
+              className="rounded-3xl p-10"
+              style={{
+                background: 'rgba(255,255,255,0.04)',
+                border: '1px solid rgba(255,255,255,0.08)',
+              }}
             >
               <div
                 className="w-12 h-12 mb-6 flex items-center justify-center rounded-2xl"
-                style={{ background: 'rgba(255,107,53,0.1)' }}
+                style={{ background: 'rgba(0,122,255,0.12)' }}
               >
-                <svg className="w-6 h-6" style={{ color: '#FF6B35' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6" style={{ color: '#007AFF' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
               <h3
                 className="font-semibold mb-6"
-                style={{ fontSize: '1.375rem', color: '#1d1d1f' }}
+                style={{ fontSize: '1.375rem', color: '#F5F5F7' }}
               >
                 {coachTitle}
               </h3>
@@ -107,14 +113,14 @@ export default function WorksYourWay({
                   <li key={point} className="flex items-start gap-3">
                     <svg
                       className="w-5 h-5 mt-0.5 flex-shrink-0"
-                      style={{ color: '#FF6B35' }}
+                      style={{ color: '#007AFF' }}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span style={{ fontSize: '1rem', color: '#1d1d1f', lineHeight: 1.5 }}>{point}</span>
+                    <span style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.5 }}>{point}</span>
                   </li>
                 ))}
               </ul>

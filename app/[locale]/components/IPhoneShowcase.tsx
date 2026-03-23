@@ -12,13 +12,13 @@ export default function IPhoneShowcase({ overline, headline, body }: IPhoneShowc
     <section
       id="iphone"
       className="py-32 px-6"
-      style={{ background: '#F5F5F7' }}
+      style={{ background: '#111111' }}
     >
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-16">
         <ScrollReveal className="text-center max-w-2xl">
           <span
             className="text-sm font-semibold tracking-widest uppercase"
-            style={{ color: '#FF6B35' }}
+            style={{ color: '#007AFF' }}
           >
             {overline}
           </span>
@@ -27,14 +27,14 @@ export default function IPhoneShowcase({ overline, headline, body }: IPhoneShowc
             style={{
               fontSize: 'clamp(2rem, 4vw, 3.5rem)',
               lineHeight: 1.08,
-              color: '#1d1d1f',
+              color: '#F5F5F7',
             }}
           >
             {headline}
           </h2>
           <p
             className="mt-6 leading-relaxed"
-            style={{ fontSize: '1.125rem', color: '#86868b' }}
+            style={{ fontSize: '1.125rem', color: 'rgba(255,255,255,0.5)' }}
           >
             {body}
           </p>

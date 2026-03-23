@@ -12,14 +12,14 @@ export default function OverloadSection({ overline, headline, body }: OverloadSe
     <section
       id="overload"
       className="py-32 px-6"
-      style={{ background: '#FFFFFF' }}
+      style={{ background: '#111111' }}
     >
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
         {/* Text side */}
         <ScrollReveal className="flex-1 text-center lg:text-left">
           <span
             className="text-sm font-semibold tracking-widest uppercase"
-            style={{ color: '#FF6B35' }}
+            style={{ color: '#007AFF' }}
           >
             {overline}
           </span>
@@ -28,14 +28,14 @@ export default function OverloadSection({ overline, headline, body }: OverloadSe
             style={{
               fontSize: 'clamp(2rem, 4vw, 3.5rem)',
               lineHeight: 1.08,
-              color: '#1d1d1f',
+              color: '#F5F5F7',
             }}
           >
             {headline}
           </h2>
           <p
             className="mt-6 leading-relaxed"
-            style={{ fontSize: '1.125rem', color: '#86868b', maxWidth: '28rem' }}
+            style={{ fontSize: '1.125rem', color: 'rgba(255,255,255,0.5)', maxWidth: '28rem' }}
           >
             {body}
           </p>
@@ -43,9 +43,9 @@ export default function OverloadSection({ overline, headline, body }: OverloadSe
           {/* Stat callouts */}
           <div className="mt-12 flex flex-col sm:flex-row gap-8 justify-center lg:justify-start">
             {[
-              { value: '280+', label: 'Exercises' },
+              { value: '1,100+', label: 'Exercises' },
               { value: '100%', label: 'Your data' },
-              { value: '∞', label: 'History' },
+              { value: '3', label: 'Languages' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div
@@ -56,7 +56,7 @@ export default function OverloadSection({ overline, headline, body }: OverloadSe
                 </div>
                 <div
                   className="mt-1 font-medium"
-                  style={{ fontSize: '0.875rem', color: '#86868b' }}
+                  style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.5)' }}
                 >
                   {stat.label}
                 </div>

@@ -12,13 +12,13 @@ export default function WatchShowcase({ overline, headline, body }: WatchShowcas
     <section
       id="watch"
       className="py-32 px-6"
-      style={{ background: '#0A0A0A' }}
+      style={{ background: '#000000' }}
     >
       <div className="max-w-5xl mx-auto flex flex-col items-center gap-16">
         <ScrollReveal className="text-center max-w-2xl">
           <span
             className="text-sm font-semibold tracking-widest uppercase"
-            style={{ color: '#FF6B35' }}
+            style={{ color: '#007AFF' }}
           >
             {overline}
           </span>

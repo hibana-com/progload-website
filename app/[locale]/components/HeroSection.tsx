@@ -23,7 +23,7 @@ export default function HeroSection({
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         <div className="animate-hero">
-          <span className="text-sm font-medium text-[#FF6B35]">{overline}</span>
+          <span className="text-sm font-medium text-[#007AFF]">{overline}</span>
         </div>
 
         <h1

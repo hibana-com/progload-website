@@ -39,26 +39,26 @@
   },
   "iphoneShowcase": {
     "overline": "WORKOUT LOGGING",
-    "headline": "Build your routine. Log every set.",
-    "body": "Create routines with exercises, sets, and rep targets. Log each set in real time as you train. Use the built-in exercise library or add your own custom exercises."
+    "headline": "Build your routine. Or just start lifting.",
+    "body": "Create structured routines with AI Coach or start a freestyle workout and add exercises as you go. Log every set in real time with 1,100+ exercises to choose from."
   },
   "watchShowcase": {
     "overline": "APPLE WATCH",
-    "headline": "Log sets right from your wrist.",
-    "body": "Swipe between exercises. Adjust weight with the Digital Crown. Tap to complete each set. HealthKit tracks your heart rate and calories automatically."
+    "headline": "Your gym partner on your wrist.",
+    "body": "Start a routine or go freestyle right from your Watch. Swipe between exercises, skip what you don't need, add new ones on the fly. Adjust weight with the Digital Crown and tap to log."
   },
   "overload": {
     "overline": "PROGRESSIVE OVERLOAD",
     "headline": "See your numbers go up.",
-    "body": "Track your max weight, total volume, and rep progression for every exercise. Know you're getting stronger, not just guessing."
+    "body": "Track your max weight, total volume, and rep progression for every exercise. Get suggested weights based on your last session so you always know what to load."
   },
   "modes": {
     "headline": "Train solo. Or with a coach.",
     "body": "ProgLoad works both ways. No coach required.",
     "soloTitle": "Self-Guided",
-    "soloPoint1": "Create your own routines",
-    "soloPoint2": "Full exercise library with 280+ exercises",
-    "soloPoint3": "Track your progress over time",
+    "soloPoint1": "1,100+ exercise library with custom exercises",
+    "soloPoint2": "AI-generated routines for your goals",
+    "soloPoint3": "Progressive overload suggestions",
     "coachTitle": "With a Coach",
     "coachPoint1": "Coach builds your program",
     "coachPoint2": "Workout review and feedback",
@@ -85,7 +85,7 @@
   },
   "story": {
     "headline": "Built by lifters, for lifters.",
-    "quote": "We kept forgetting what we lifted last week and couldn't tell if we were actually getting stronger. We didn't need a complicated app — just a simple way to track our weights and see progress. ProgLoad is the app we wished we had when we started training.",
+    "quote": "We kept forgetting what we lifted last week and couldn't tell if we were actually getting stronger. We didn't need a complicated app \u2014 just a simple way to track our weights and see progress. ProgLoad is the app we wished we had when we started training.",
     "title": "Why We Built ProgLoad",
     "descriptionPart1": "We kept forgetting what we lifted last week and couldn't tell if we were actually getting stronger. We didn't need a complicated app. We needed a simple way to",
     "descriptionHighlight": "track our weights and see progress",
@@ -113,7 +113,7 @@
     "terms": "Terms of Service",
     "support": "Support",
     "contact": "Contact",
-    "copyright": "© {year} ProgLoad. All rights reserved."
+    "copyright": "\u00a9 {year} ProgLoad. All rights reserved."
   },
   "support": {
     "title": "Support",
@@ -126,13 +126,13 @@
     "faq2Question": "How does the coach-athlete connection work?",
     "faq2Answer": "Coaches add customers by their email address. The customer receives an invitation and once accepted, the coach can assign routines and review their completed workouts.",
     "faq3Question": "Can I use ProgLoad without a coach?",
-    "faq3Answer": "Yes! You can create your own routines and track workouts independently. The coach feature is optional -- ProgLoad works great for self-guided training too.",
+    "faq3Answer": "Yes! You can create your own routines, use AI Coach to generate them, or start freestyle workouts. The coach feature is optional \u2014 ProgLoad works great for self-guided training too.",
     "faq4Question": "How does Apple Watch logging work?",
-    "faq4Answer": "Open ProgLoad on your Apple Watch to see today's workout. Swipe between exercises, adjust weight and reps with the Digital Crown, and tap to complete each set. HealthKit integration tracks your heart rate and calories automatically.",
+    "faq4Answer": "Open ProgLoad on your Apple Watch to see today's workout. Swipe between exercises, adjust weight and reps with the Digital Crown, and tap to complete each set. You can also start freestyle workouts and add exercises on the fly. HealthKit integration tracks your heart rate and calories automatically.",
     "faq5Question": "How do I delete my account?",
     "faq5Answer": "You can request account deletion by emailing support@progload.app. We'll delete all your personal data within 30 days of your request, as described in our Privacy Policy.",
     "faq6Question": "Is ProgLoad available in my language?",
-    "faq6Answer": "ProgLoad is currently available in English and Spanish. The app will automatically use your device's language if supported. If you'd like to suggest a new language, please email us.",
+    "faq6Answer": "ProgLoad is available in English, Spanish, and Portuguese. The app will automatically use your device's language if supported. If you'd like to suggest a new language, please email us.",
     "linksTitle": "Helpful Links"
   }
 }

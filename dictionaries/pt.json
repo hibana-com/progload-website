@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "howItWorks": "Como funciona",
+    "features": "Recursos",
+    "downloadFree": "Baixar Gratis"
+  },
+  "hero": {
+    "badge": "Treine Melhor",
+    "overline": "iPhone e Apple Watch",
+    "title": "Registre Seus Pesos.",
+    "titleHighlight": "Veja Seu Progresso.",
+    "description": "A forma mais simples de lembrar quanto voce levantou e se superar toda vez.",
+    "cta": "Baixar Gratis",
+    "secondaryCta": "Saiba mais",
+    "secondary": "Veja Como Funciona"
+  },
+  "howItWorks": {
+    "title": "Como",
+    "titleHighlight": "ProgLoad",
+    "titleEnd": "Funciona",
+    "description": "De criar sua rotina a quebrar recordes pessoais em tres passos simples.",
+    "step1Title": "Crie Sua Rotina",
+    "step1Description": "Crie rotinas de treino com exercicios, series, repeticoes e metas de peso. Use a biblioteca de exercicios ou adicione seus proprios exercicios personalizados.",
+    "step2Title": "Treine e Registre",
+    "step2Description": "Registre cada serie com peso e repeticoes enquanto treina. Registre treinos no iPhone ou direto do Apple Watch com a Digital Crown.",
+    "step3Title": "Acompanhe Seu Progresso",
+    "step3Description": "Veja seu peso maximo, volume total e historico de progressao para cada exercicio. Nunca mais esqueca quanto levantou na semana passada."
+  },
+  "features": {
+    "title": "Feito para",
+    "titleHighlight": "Treinar de Verdade",
+    "description": "Tudo que voce precisa na academia, nada que nao precisa.",
+    "feature1Title": "Registro no Apple Watch",
+    "feature1Description": "Registre series, repeticoes e peso direto do pulso. ProgLoad integra com HealthKit para monitorar frequencia cardiaca e calorias durante o treino.",
+    "feature2Title": "Solo ou Com Treinador",
+    "feature2Description": "Treine por conta propria com controle total sobre suas rotinas, ou conecte com um treinador que pode criar programas e revisar seus treinos. Treinador opcional.",
+    "feature3Title": "Sobrecarga Progressiva",
+    "feature3Description": "Acompanhe estatisticas dos exercicios ao longo do tempo. Veja seu peso maximo, volume total e historico de progressao para cada exercicio."
+  },
+  "iphoneShowcase": {
+    "overline": "REGISTRO DE TREINOS",
+    "headline": "Crie sua rotina. Ou comece a levantar.",
+    "body": "Crie rotinas estruturadas com AI Coach ou comece um treino livre e adicione exercicios na hora. Registre cada serie em tempo real com mais de 1.100 exercicios disponiveis."
+  },
+  "watchShowcase": {
+    "overline": "APPLE WATCH",
+    "headline": "Seu parceiro de treino no pulso.",
+    "body": "Comece uma rotina ou treine livre direto do Watch. Deslize entre exercicios, pule o que nao precisa, adicione novos na hora. Ajuste o peso com a Digital Crown e toque para registrar."
+  },
+  "overload": {
+    "overline": "SOBRECARGA PROGRESSIVA",
+    "headline": "Veja seus numeros subirem.",
+    "body": "Acompanhe seu peso maximo, volume total e progressao de repeticoes para cada exercicio. Receba sugestoes de peso baseadas na sua ultima sessao para sempre saber quanto colocar."
+  },
+  "modes": {
+    "headline": "Treine solo. Ou com um treinador.",
+    "body": "ProgLoad funciona dos dois jeitos. Treinador opcional.",
+    "soloTitle": "Autoguiado",
+    "soloPoint1": "Biblioteca com mais de 1.100 exercicios e exercicios personalizados",
+    "soloPoint2": "Rotinas geradas por IA para seus objetivos",
+    "soloPoint3": "Sugestoes de sobrecarga progressiva",
+    "coachTitle": "Com Treinador",
+    "coachPoint1": "Seu treinador cria seu programa",
+    "coachPoint2": "Revisao de treinos e feedback",
+    "coachPoint3": "Sincronizacao em tempo real entre voce e seu treinador"
+  },
+  "privacy": {
+    "headline": "Seus dados. Seu controle.",
+    "privateTitle": "Privado por Padrao",
+    "privateBody": "Seus treinos so sao visiveis para voce. Compartilhe com um treinador apenas se quiser.",
+    "syncTitle": "Sincronizado em Todo Lugar",
+    "syncBody": "Seus dados sincronizam instantaneamente entre iPhone e Apple Watch. Sempre atualizado.",
+    "secureTitle": "Criptografado e Seguro",
+    "secureBody": "Todos os dados criptografados em transito e em repouso. Construido sobre a infraestrutura de seguranca do Firebase."
+  },
+  "trust": {
+    "title": "Seus Dados, Seu Controle",
+    "description": "ProgLoad foi construido com privacidade em mente. Seus dados de treino sao seus.",
+    "private": "Privado por Padrao",
+    "privateDescription": "Seus treinos so sao visiveis para voce. Compartilhe com um treinador apenas se quiser.",
+    "sync": "Sincronizacao em Tempo Real",
+    "syncDescription": "Os treinos sincronizam instantaneamente entre iPhone e Apple Watch para que seus dados estejam sempre atualizados.",
+    "secure": "Seguro e Criptografado",
+    "secureDescription": "Todos os dados criptografados em transito e em repouso usando a infraestrutura de seguranca do Firebase."
+  },
+  "story": {
+    "headline": "Criado por lifters, para lifters.",
+    "quote": "A gente sempre esquecia quanto levantou na semana passada e nao sabia se realmente estava progredindo. Nao precisavamos de um app complicado \u2014 so uma forma simples de registrar nossos pesos e ver o progresso. ProgLoad e o app que a gente queria ter quando comecou a treinar.",
+    "title": "Por Que Criamos o ProgLoad",
+    "descriptionPart1": "A gente sempre esquecia quanto levantou na semana passada e nao sabia se realmente estava progredindo. Nao precisavamos de um app complicado. Precisavamos de uma forma simples de",
+    "descriptionHighlight": "registrar nossos pesos e ver nosso progresso",
+    "descriptionPart2": ". ProgLoad e o app que a gente queria ter quando comecou a treinar.",
+    "attribution": "-- Criado por lifters, para lifters"
+  },
+  "download": {
+    "headline": "Comece a treinar melhor.",
+    "body": "Baixe ProgLoad de graca.",
+    "cta": "Em Breve na App Store",
+    "title": "Pronto para Treinar Melhor?",
+    "description": "Baixe ProgLoad e comece a registrar seus treinos hoje.",
+    "appStore": "App Store",
+    "appStoreLabel": "Baixar na",
+    "comingSoon": "Em Breve na App Store"
+  },
+  "legal": {
+    "privacyTitle": "Politica de Privacidade",
+    "privacyDescription": "Saiba como ProgLoad coleta, usa e protege suas informacoes pessoais.",
+    "termsTitle": "Termos de Servico",
+    "termsDescription": "Leia os termos e condicoes para usar o app ProgLoad."
+  },
+  "footer": {
+    "privacy": "Politica de Privacidade",
+    "terms": "Termos de Servico",
+    "support": "Suporte",
+    "contact": "Contato",
+    "copyright": "\u00a9 {year} ProgLoad. Todos os direitos reservados."
+  },
+  "support": {
+    "title": "Suporte",
+    "description": "Tem alguma duvida ou problema? Estamos aqui para ajudar.",
+    "contactTitle": "Entre em Contato",
+    "contactDescription": "Para qualquer duvida, relatorio de bugs ou feedback, mande um email e responderemos o mais rapido possivel.",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Como crio uma conta?",
+    "faq1Answer": "Baixe ProgLoad na App Store, toque em Criar Conta e registre-se com um endereco de email. Voce vai escolher seu nome e selecionar se e treinador ou atleta.",
+    "faq2Question": "Como funciona a conexao treinador-atleta?",
+    "faq2Answer": "Treinadores adicionam clientes pelo email. O cliente recebe um convite e, uma vez aceito, o treinador pode atribuir rotinas e revisar os treinos concluidos.",
+    "faq3Question": "Posso usar ProgLoad sem treinador?",
+    "faq3Answer": "Sim! Voce pode criar suas proprias rotinas, usar o AI Coach para gera-las, ou comecar treinos livres. O recurso de treinador e opcional \u2014 ProgLoad funciona muito bem para treino autoguiado.",
+    "faq4Question": "Como funciona o registro no Apple Watch?",
+    "faq4Answer": "Abra ProgLoad no Apple Watch para ver o treino de hoje. Deslize entre exercicios, ajuste peso e repeticoes com a Digital Crown, e toque para completar cada serie. Voce tambem pode comecar treinos livres e adicionar exercicios na hora. A integracao com HealthKit registra frequencia cardiaca e calorias automaticamente.",
+    "faq5Question": "Como excluo minha conta?",
+    "faq5Answer": "Voce pode solicitar a exclusao da conta enviando um email para support@progload.app. Excluiremos todos os seus dados pessoais em ate 30 dias, conforme descrito em nossa Politica de Privacidade.",
+    "faq6Question": "ProgLoad esta disponivel no meu idioma?",
+    "faq6Answer": "ProgLoad esta disponivel em ingles, espanhol e portugues. O app usa automaticamente o idioma do seu dispositivo se suportado. Se quiser sugerir um novo idioma, mande um email pra gente.",
+    "linksTitle": "Links Uteis"
+  }
+}
